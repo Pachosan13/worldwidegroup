@@ -175,7 +175,7 @@ export default function Home() {
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <Feature
               title="Confianza"
-              desc="Procesos claros, comunicación directa y ejecución consistente."
+              desc="Empresa establecida con inventario real y logística clara. Envios disponibles a LATAM."
             />
             <Feature
               title="Alcance"
