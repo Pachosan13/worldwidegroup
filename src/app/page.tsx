@@ -108,28 +108,28 @@ export default function Home() {
         {/* What we do */}
         <section className="mt-20">
           <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-            Qué hace WorldWide Group
+            Dolor → Solución
           </h2>
           <p className="mt-3 max-w-2xl text-slate-600">
-            Operamos como tu brazo de distribución: estrategia, operación y ejecución en el canal.
+            Menos riesgo de estafas. Menos inventario muerto. Más rotación con stock validado y entregas claras.
           </p>
 
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             <Feature
-              title="Distribución B2B"
-              desc="Ejecución de ventas y disponibilidad en retail y partners, con foco en consistencia y margen."
+              title="Dolor: estafas"
+              desc="Stock verificado, documentación y trazabilidad desde la cotización."
             />
             <Feature
-              title="Representación de marcas"
-              desc="Relación directa con fabricantes y lineamientos claros para crecer sin perder control."
+              title="Dolor: inventario muerto"
+              desc="Surtido por demanda y rotación. Recomendación de mix y cantidades."
             />
             <Feature
-              title="Operación & logística"
-              desc="Procesos ordenados: inventario, cumplimiento y reportes. Menos fricción, más velocidad."
+              title="Solución: inventario real"
+              desc="Disponibilidad confirmada antes de pago. Reservas por orden."
             />
             <Feature
-              title="Go-to-market"
-              desc="Lanzamientos, expansión de catálogo y coordinación comercial para mover producto con intención."
+              title="Solución: entrega clara"
+              desc="Tiempos, condiciones y tracking definidos desde el inicio."
             />
           </div>
         </section>
