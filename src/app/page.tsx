@@ -134,15 +134,15 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Brands */}
+        {/* Products */}
         <section className="mt-20">
           <div className="flex items-end justify-between gap-6">
             <div>
               <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-                Marcas que distribuimos
+                Productos
               </h2>
               <p className="mt-3 max-w-2xl text-slate-600">
-                Un portafolio seleccionado. Calidad, demanda y soporte.
+                Categorías con inventario real y rotación. Cotiza por WhatsApp.
               </p>
             </div>
             <Link
@@ -153,17 +153,66 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            {brands.map((b) => (
-              <div
-                key={b.name}
-                className="group flex h-24 items-center justify-center rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md"
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <p className="text-sm font-semibold text-slate-900">iPhones al por mayor</p>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Proveedor iPhones al por mayor con inventario real en Panamá.
+              </p>
+              <a
+                className="mt-4 inline-flex text-sm font-medium text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+                href="https://wa.me/50765699957"
+                target="_blank"
+                rel="noreferrer"
               >
-                <span className="text-sm font-semibold tracking-tight text-slate-700 group-hover:text-slate-900">
-                  {b.name}
-                </span>
-              </div>
-            ))}
+                Cotizar por WhatsApp
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <p className="text-sm font-semibold text-slate-900">Tecnología (mayoreo)</p>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Mayorista tecnología Panamá para retail, e-commerce y distribuidores.
+              </p>
+              <a
+                className="mt-4 inline-flex text-sm font-medium text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+                href="https://wa.me/50765699957"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cotizar por WhatsApp
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <p className="text-sm font-semibold text-slate-900">Zona Libre (Panamá)</p>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Proveedor zona libre Panamá con logística clara y disponibilidad confirmada.
+              </p>
+              <a
+                className="mt-4 inline-flex text-sm font-medium text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+                href="https://wa.me/50765699957"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cotizar por WhatsApp
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <p className="text-sm font-semibold text-slate-900">Zona Libre de Colón</p>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Proveedor confiable zona libre colón con envíos a LATAM.
+              </p>
+              <a
+                className="mt-4 inline-flex text-sm font-medium text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
+                href="https://wa.me/50765699957"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cotizar por WhatsApp
+              </a>
+            </div>
           </div>
         </section>
 
