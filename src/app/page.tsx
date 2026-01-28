@@ -45,11 +45,10 @@ export default function Home() {
               DISTRIBUTION · REPRESENTATION · EXECUTION
             </p>
             <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">
-              Premium distribution for brands that demand reliable execution.
+              El proveedor confiable en tecnologías para la Zona Libre de Panamá.
             </h1>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
-              WorldWide Group connects world-class products with retail and channel partners—built for speed,
-              compliance, and long-term trust.
+              Ofrecemos mayoristas de tecnología y los mejores precios en iPhones al por mayor, garantizando una rotación rápida y segura.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -193,10 +192,10 @@ export default function Home() {
         <section className="mt-20">
           <div className="rounded-3xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-[0_20px_60px_-40px_rgba(2,6,23,0.35)]">
             <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-              Ready to distribute with precision?
+              Tu aliado estratégico en la Zona Libre de Colón.
             </h2>
             <p className="mt-3 max-w-2xl text-slate-600">
-              Tell us your category, target markets, and timeline. We’ll come back with terms and next steps.
+              Elevamos tu negocio con tecnología de calidad y un servicio excepcional.
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Link
