@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 10 18 30;
+  --muted: 102 112 133;
+  --line: 226 232 240;
+
+  --brand-500: 0 122 255;
+  --brand-600: 0 95 204;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: rgba(var(--brand-500), 0.25);
+}
