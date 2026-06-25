@@ -274,6 +274,7 @@ export default function Home() {
                 Contact
               </Link>
               <span className="text-xs text-slate-500">© {new Date().getFullYear()} WorldWide Group</span>
+              <span className="text-xs text-slate-400">Sitio por <a href="https://www.agencylevel5.com" target="_blank" rel="noopener" className="hover:text-slate-900">Agency Level 5</a></span>
             </div>
           </div>
         </footer>
